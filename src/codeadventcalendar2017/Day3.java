@@ -10,6 +10,7 @@ import java.util.ArrayList;
 /**
  *
  * @author Dany Lyth
+ * I did part 1 by hand, the answer is 552
  */
 public class Day3 {
     
@@ -43,7 +44,7 @@ public class Day3 {
         return toReturn;
     }
     
-    public static int dayThree(int value) {
+    public static int dayThreePartTwo(int value) {
         int begin = 1;
         int xPos = 0;
         int yPos = 0;
@@ -59,7 +60,7 @@ public class Day3 {
             }
             begin = getSumOfAdjacent(theMatrix, xPos, yPos);
             theMatrix.add(new SpiralStructure(xPos, yPos, begin));
-            System.out.println(xPos + " " + yPos + " " + begin);
+            //System.out.println(xPos + " " + yPos + " " + begin);
         }
         return begin;
     }

@@ -35,12 +35,14 @@ public class CodeAdventCalendar2017 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println(Day1.dayOne(new BigInteger(DAY_ONE_INPUT)));
+        //System.out.println(Day1.dayOne(new BigInteger(DAY_ONE_INPUT)));
         System.out.println(Day1.dayOneString(DAY_ONE_INPUT));
         System.out.println(Day1.dayOneStringPartTwo(DAY_ONE_INPUT));
         System.out.println(Day2.dayTwo(DAY_TWO_INPUT));
         System.out.println(Day2.dayTwoPartTwo(DAY_TWO_INPUT));
-        System.out.println(Day3.dayThree(DAY_THREE_INPUT));
+        //Did part 1 by hand, might come back and code it, but the logic is simple
+        System.out.println(552);
+        System.out.println(Day3.dayThreePartTwo(DAY_THREE_INPUT));
     }
     
 }
