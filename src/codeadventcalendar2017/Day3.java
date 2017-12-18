@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Dany Lyth
+ * @author DaLyth
  * I did part 1 by hand, the answer is 552
  */
 public class Day3 {

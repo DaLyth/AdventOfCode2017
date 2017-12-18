@@ -9,7 +9,7 @@ import java.math.BigInteger;
 
 /**
  *
- * @author Dany Lyth
+ * @author DaLyth
  */
 public class Day1 {
     

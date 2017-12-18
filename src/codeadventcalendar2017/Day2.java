@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Dany Lyth
+ * @author DaLyth
  */
 public class Day2 {
     

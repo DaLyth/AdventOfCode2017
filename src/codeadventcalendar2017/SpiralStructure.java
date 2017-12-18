@@ -7,7 +7,7 @@ package codeadventcalendar2017;
 
 /**
  *
- * @author Dany Lyth
+ * @author DaLyth
  */
 public class SpiralStructure {
     
